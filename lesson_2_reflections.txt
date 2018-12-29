@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+.git subfolder is created with git metadata
+We need this step to have git started to work on this folder and its subfolders, and handle all of them as a repository
+How is the staging area different from the working directory and th repository?
+What value do you think it offers?
+
+Staging area contains a subset of the working directory, all of the tracked files updated since the last commit.
+Its value is that it can be changed before deciding what will go into the next commit
