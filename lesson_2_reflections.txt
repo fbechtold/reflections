@@ -7,3 +7,9 @@ What value do you think it offers?
 
 Staging area contains a subset of the working directory, all of the tracked files updated since the last commit.
 Its value is that it can be changed before deciding what will go into the next commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+I guess that using git diff --staged can surely shows which goes exactly to the next commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I want to try out some experimental code change, a branch would be a safe solution for doing that
