@@ -13,3 +13,14 @@ I guess that using git diff --staged can surely shows which goes exactly to the 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When I want to try out some experimental code change, a branch would be a safe solution for doing that
+
+How do the diagrams help you visualize the branch structure?
+It clearly shows the tree structure of commit chains
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Result of merging: a new commit containing the code changes of both the commits merged
+Result commit has 2 parents
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro: much faster than done by hand when it is clear what to do
+Con: ?
