@@ -9,3 +9,6 @@ fork: use when creating a copy from a GitHub repository to my GitHub account
 branch: created on local repositories
 clone: can be used on local repositories as well as remote (GitHub) repositories
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+?
+
